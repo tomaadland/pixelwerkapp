@@ -1,0 +1,189 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries */
+
+     
+/* #Layout
+================================================== */
+     
+     .container { 
+     max-width: 850px;
+     margin:15px auto;
+     padding:0 15px; 
+     }
+     
+     
+     #header {overflow:hidden; }
+
+     .gallery-list { overflow:hidden; list-style:none; margin-bottom:0; }
+     .gallery-list li {
+     float:left; 
+     width:22.7%;
+     margin-right:3%;      
+     min-width:190px;
+     padding-left:0;
+     background:none;
+          }
+          .gallery-list li.last {
+          margin-right:0; 
+          }
+          .gallery-list li li {
+          float:none;
+          }
+         .gallery-list li h3 {
+          margin-bottom:0; 
+          /* Modern browsers only */
+          -webkit-transition: all 0.3s ease-in-out; 
+          -moz-transition: all 0.3s ease-in-out; 
+          -o-transition: all 0.3s ease-in-out; 
+          padding:3px 0; 
+          }
+          .gallery-list li img {
+          margin-bottom:7px;
+          }
+          .gallery-list > li:hover h3 {
+          color:#fff; background-color:#292929;
+          padding-left:8px;           }
+     
+     
+      p.facebook-icon, p.facebook-icon a {line-height:inherit; }
+      p.facebook-icon img {vertical-align:middle; position:relative; top:-4px;}
+     
+     
+/* #Site Styles
+================================================== */
+
+     #header .logo {
+          float:left;
+          width:15%; 
+          min-width:115px; 
+          margin-bottom:7px; 
+     }
+
+     #header .intro {
+     float:left; 
+     width:68%; 
+     }
+
+     .copy {
+     /*text-align:right; */
+     font-family: "Times New Roman";
+     position:fixed; right:120px; bottom:25px;
+     }
+     
+
+
+
+/* #Page Styles
+================================================== */
+
+
+
+
+
+
+/* #Media Queries
+================================================== */
+
+
+	@media only screen and (max-width: 1052px) {
+          
+          .copy {
+          text-align:right;
+          font-family: Georgia,"Times New Roman",Times,serif;
+          position:static;
+          }
+
+     }
+
+	@media only screen and (max-width: 865px) {
+          
+          .gallery-list li {
+          min-width:150px;
+          }
+     
+          .gallery-list li img {width:150px; }
+     
+     }
+
+	@media only screen and (max-width: 702px) {
+          
+          .gallery-list > li {
+          width:34%;
+          margin-left:10%; 
+          margin-right:0;           
+          min-width:140px;
+          }
+          
+          .gallery-list li img {min-width:100%}
+          
+     }
+
+
+	@media only screen and (max-width: 565px) {
+          
+          html {padding-bottom:220px; }
+          
+          .gallery-list > li {
+          width:45%;
+          margin-left:0; 
+          margin-right:9%;           
+          -min-width:140px;
+          }
+                    
+          .gallery-list > li:nth-child(2) {margin-right:0; }
+
+     }
+
+	@media only screen and (max-width: 458px) {
+          
+          #header .logo {width:20%; }
+          #header .logo img {width:auto; min-width:40%; }
+          #header .intro {width:60%; }
+     
+     }
+
+	@media only screen and (max-width: 333px) {
+          
+          #header .logo {width:100%; }
+          #header .logo img {display:block; margin:0 auto; }
+          #header .intro {width:100%; }
+     
+          .gallery-list > li {
+          width:100%;
+          margin:0; 
+          margin-right:0;           
+          min-width:190px;
+          }
+          
+          .copy {text-align:center; background-color:#444041; padding:10px; }
+     
+     }
+
+     
+     
+     
+     
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
