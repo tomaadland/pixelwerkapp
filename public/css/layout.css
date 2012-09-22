@@ -80,7 +80,7 @@
      .copy {
      /*text-align:right; */
      font-family: "Times New Roman";
-     position:fixed; right:120px; bottom:25px;
+     /* position:fixed; right:120px; bottom:25px; */
      }
      
 
@@ -101,9 +101,10 @@
 	@media only screen and (max-width: 1052px) {
           
           .copy {
-          text-align:right;
+          /* text-align:right;
           font-family: Georgia,"Times New Roman",Times,serif;
           position:static;
+          */
           }
 
      }
@@ -168,7 +169,7 @@
           min-width:190px;
           }
           
-          .copy {text-align:center; background-color:#444041; padding:10px; }
+          .copy {/*text-align:center; background-color:#444041; padding:10px;*/ }
      
      }
 
